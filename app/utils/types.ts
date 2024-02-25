@@ -5,6 +5,7 @@ export type Section = {
   textColour: string;
   textSize: string;
   url: string;
+  target: string;
   leftShift: number;
   topShift: number;
   width: number;

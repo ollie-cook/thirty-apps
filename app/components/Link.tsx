@@ -25,8 +25,8 @@ export default function Link({ section }: LinkProps) {
       onMouseEnter={() => setBgColour(section.bgColour)} // replace 'colorOnHover' with the color you want on hover
       onMouseLeave={() => setBgColour('')}
     >
-      <p className="hidden text-xs mt-1 group-hover:block" style={{color: section.textColour}}>{section.date}</p>
-      <p className={`${section.textSize} hidden font-bold text-center mt-3 group-hover:block`} style={{color: section.textColour}}>{section.displayName}</p>
+      <p className="hidden text-[0.4rem] sm:text-[0.6rem] lg:text-xs lg:mt-1 group-hover:block" style={{color: section.textColour}}>{section.date}</p>
+      <p className={`${section.textSize} hidden font-bold text-center mt-1 lg:mt-3 group-hover:block`} style={{color: section.textColour}}>{section.displayName}</p>
     </a>
   )
 }
