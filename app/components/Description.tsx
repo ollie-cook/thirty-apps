@@ -3,7 +3,7 @@ import { sections } from '@/app/utils/constants'
 
 export default function Description() {
   return (
-    <div className="w-1/2">
+    <div className="w-11/12 md:w-2/3 lg:w-1/2">
       <p className="text-xl font-semibold">
         On the 27th of January 2024 I decided to take on the challenge of building a web app every day for the next 30 days.
         The purpose of the challenge was to widen my knowledge of web development, as well as to market my main project Silk, which is an app store for web apps.

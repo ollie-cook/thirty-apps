@@ -8,7 +8,7 @@ export default function Favourites({ section }: FavouriteProps) {
   return (
     <a 
       href="https://tfl-locate.vercel.app/" 
-      className="w-1/2 py-2 px-1 bg-blue-500 rounded-lg flex items-center gap-4 hover:bg-blue-600"
+      className="w-full sm:w-2/3 xl:w-1/2 py-2 px-1 bg-blue-500 rounded-lg flex items-center gap-4 hover:bg-blue-600"
     >
       <img src={section.logo} className="h-16">
       </img>
