@@ -13,7 +13,7 @@ export default function Link({ section }: LinkProps) {
   return (
     <a 
       href={section.url}
-      target="_blank"
+      target={section.target}
       className="group absolute flex flex-col items-center rounded-lg"
       style={{
         width: `${section.width}%`, 

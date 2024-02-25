@@ -10,4 +10,6 @@ export type Section = {
   topShift: number;
   width: number;
   height: number;
+  description?: string;
+  logo?: string;
 }

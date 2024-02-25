@@ -1,13 +1,4 @@
-//taken when the image is 917x688
 import { type Section } from "@/app/utils/types"
-
-
-const sectionCoords = [
-  {
-    upperLeft: [115, 126],
-    lowerRight: [220, 223]
-  }
-]
 
 export const sections: Section[] = [
   {
@@ -34,7 +25,9 @@ export const sections: Section[] = [
     leftShift: 24.5,
     topShift: 19.3,
     width: 13,
-    height: 13.8
+    height: 13.8,
+    description: "A place to quickly copy and paste blocks of text you use frequently",
+    logo: '/copyblocks.png'
   },
   {
     displayName: 'Context Translate',
@@ -73,7 +66,9 @@ export const sections: Section[] = [
     leftShift: 61.8,
     topShift: 21.8,
     width: 11.8,
-    height: 12.5
+    height: 12.5,
+    description: "Find a london tube station without zooming in or out",
+    logo: '/tfl.png'
   },
   {
     displayName: 'SVG Pattern Generator',
@@ -190,7 +185,9 @@ export const sections: Section[] = [
     leftShift: 24.6,
     topShift: 44,
     width: 12.8,
-    height: 12.5
+    height: 12.5,
+    description: 'Colour palette generator',
+    logo: '/palette.png'
   },
   {
     displayName: 'Redux Example',
@@ -307,7 +304,9 @@ export const sections: Section[] = [
     leftShift: 60.5,
     topShift: 58.3,
     width: 11.7,
-    height: 12.5
+    height: 12.5,
+    description: 'Picks a random episode of The Office for you to watch',
+    logo: '/office.png'
   },
   {
     displayName: 'Zustand Example',
