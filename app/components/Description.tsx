@@ -11,8 +11,8 @@ export default function Description() {
       </p>
       <p className="text-xl font-semibold mt-2">
         All the apps are built using React, Next.js, Typescript, Tailwind CSS and Vercel. 
-        I've experimented with a wide variety of other technologies, including cookies, react-spring, react-simple-maps, react-color, supabase, canvas, redux, zustand and jotai.
-        I've also integrated with many third-party APIs and data sources, including OpenAI, Google Maps JavaScript API, API-FOOTBALL and MoviesDatabase.
+        I&apos;ve experimented with a wide variety of other technologies, including cookies, react-spring, react-simple-maps, react-color, supabase, canvas, redux, zustand and jotai.
+        I&apos;ve also integrated with many third-party APIs and data sources, including OpenAI, Google Maps JavaScript API, API-FOOTBALL and MoviesDatabase.
       </p>
       <p className="text-xl font-semibold mt-6">
         Here are a few of my favourites:
@@ -21,7 +21,7 @@ export default function Description() {
       <Favourite 
         section={sections[4]}
       />
-      <p className="mt-2">I've found this unreasonably useful given how simple it is. It's pretty much always open in my browser now.</p>
+      <p className="mt-2">I&apos;ve found this unreasonably useful given how simple it is. It&apos;s pretty much always open in my browser now.</p>
       <Favourite 
         section={sections[1]}
       />
